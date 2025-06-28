@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Video Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text to Video Generator</h1>
+            <p>Enter your text and let AI create a video script for you</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+                <button id="generate-btn">Generate Video Script</button>
+            </div>
+            
+            <div class="output-section">
+                <h2>Generated Content</h2>
+                <div id="output-content" class="output-content"></div>
+                
+                <div class="video-placeholder" id="video-placeholder">
+                    <p>Video will be generated here (simulated)</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Powered by Gemini AI | Deployed on Render</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
